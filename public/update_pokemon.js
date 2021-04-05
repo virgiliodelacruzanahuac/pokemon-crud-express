@@ -11,7 +11,7 @@ async function updatepokemon() {
   
   for (index = 0; index < radioArray.length; index++)
     {
-        if (radioArray[index].disabled == false)
+        if (radioArray[index].checked)
           {
             clave_pokemon = radioArray[index].value;
           }
